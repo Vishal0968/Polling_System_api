@@ -1,0 +1,21 @@
+{
+  "name": "polling_system_api-master",
+  "version": "1.0.0",
+  "description": "Creating a **Polling System API** where anyone can create questions with options and also add votes to it. It is built\r using Express, Nodejs, MongoDB.",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Vishal Snagave",
+  "license": "ISC",
+  "dependencies": {
+    "data": "^0.6.1",
+    "data-parser": "^1.0.1",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "mongoose": "^6.0.3",
+    "nodemon": "^2.0.22",
+    "parser": "^0.1.4"
+  }
+}
